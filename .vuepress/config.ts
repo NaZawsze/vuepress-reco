@@ -37,7 +37,7 @@ export default defineUserConfig({
         ],
       },
       { text: "标签", link: "/tags/tag1/1/" },
-      { text: "博客s", link: "https://hexo.skybridair.cn"},
+      { text: "博客", link: "https://hexo.skybridair.cn"},
     ],
     bulletin: {
       body: [
