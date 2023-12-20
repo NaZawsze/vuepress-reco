@@ -17,7 +17,7 @@ bannerBrand:
     - { icon: 'LogoGithub', link: 'https://github.com/NaZawsze/vuepress-reco' }
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: '[https://github.com/recoluan](https://github.com/NaZawsze)' }
+    - { icon: 'LogoGithub', link: 'https://github.com/NaZawsze' }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
