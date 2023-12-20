@@ -31,6 +31,7 @@ export default defineUserConfig({
       { text: "主页", link: "/" },
       { 
         text: "分类",
+        prefix: "/categories",
         children: [
           {
             text: "运维",
@@ -44,7 +45,7 @@ export default defineUserConfig({
           },
         ],
       },
-      { text: "标签", link: "/tags/tag1/1/" },
+      { text: "标签", link: "/tags/tag" },
       { text: "博客", link: "https://hexo.skybridair.cn"},
     ],
     bulletin: {
