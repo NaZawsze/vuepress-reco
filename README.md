@@ -15,13 +15,6 @@ bannerBrand:
     - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/NaZawsze/vuepress-reco' }
-blog:
-  socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/NaZawsze' }
-  themeConfig:
-    - { author: 'NaZawsze', authorAvatar: 'https://alioss.nzair.top/hexoBlogwebp/chtholly.webp' }
-footer:
-  startYear: 2023
 features:
 - title: 过去
   details: 开发一款看着开心、写着顺手的 vuepress 博客主题。
@@ -29,6 +22,11 @@ features:
   details: 帮助更多的朋友节省时间去用心书写内容，而不是仅仅配置一个博客去孤芳自赏。
 - title: 未来
   details: 吸引更多的朋友参与到开发中来，继续强大功能。
+blog:
+  socialLinks:
+    - { icon: 'LogoGithub', link: 'https://github.com/NaZawsze' }
+footer:
+  startYear: 2023
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
