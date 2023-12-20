@@ -32,8 +32,16 @@ export default defineUserConfig({
       { 
         text: "分类",
         children: [
-          { text: "运维", link: "/categories/ops/1/" },
-          { text: "开发", link: "/categories/dev/1/" },
+          {
+            text: "运维",
+            prefix: "ops/",
+            children: ["Linux/","Windows/"],
+          },
+          {
+            text: "开发",
+            prefix: "dev/",
+            children: ["C++/","JAVA/"],
+          },
         ],
       },
       { text: "标签", link: "/tags/tag1/1/" },
