@@ -3,14 +3,14 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
-  title: "vuepress-theme-reco",
-  description: "Just playing around",
+  title: "败犬的文档库",
+  description: "记录技术理论以及项目方案的文档库",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
-    author: "reco_luan",
-    authorAvatar: "/head.png",
-    docsRepo: "https://github.com/vuepress-reco/vuepress-theme-reco-next",
+    author: "NaZawsze",
+    authorAvatar: "https://alioss.nzair.top/hexoBlogwebp/chtholly.webp",
+    docsRepo: "https://github.com/NaZawsze/vuepress-reco",
     docsBranch: "main",
     docsDir: "example",
     lastUpdatedText: "",
@@ -32,8 +32,8 @@ export default defineUserConfig({
       { 
         text: "分类",
         children: [
-          { text: "运维", link: "/categories/reco/1/" },
-          { text: "开发", link: "/categories/reco/2/" },
+          { text: "运维", link: "/categories/ops/1/" },
+          { text: "开发", link: "/categories/dev/1/" },
         ],
       },
       { text: "标签", link: "/tags/tag1/1/" },
