@@ -28,15 +28,16 @@ export default defineUserConfig({
       ],
     },
     navbar: [
-      { text: "Home", link: "/" },
-      { text: "Categories", link: "/categories/reco/1/" },
-      { text: "Tags", link: "/tags/tag1/1/" },
-      {
-        text: "Docs",
+      { text: "主页", link: "/" },
+      { 
+        text: "分类",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+          { text: "运维", link: "/categories/reco/1/" },
+          { text: "开发", link: "/categories/reco/2/" },
         ],
+      },
+      { text: "标签", link: "/tags/tag1/1/" },
+      { text: "博客s", link: "https://hexo.skybridair.cn"},
       },
     ],
     bulletin: {
