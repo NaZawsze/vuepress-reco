@@ -35,12 +35,12 @@ export default defineUserConfig({
         children: [
           {
             text: "运维",
-            prefix: "ops/",
+            prefix: "Ops/",
             children: ["Linux","Windows"],
           },
           {
             text: "开发",
-            prefix: "dev/",
+            prefix: "Dev/",
             children: ["C++","JAVA"],
           },
         ],
